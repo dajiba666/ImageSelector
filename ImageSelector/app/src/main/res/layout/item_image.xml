@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<myapp.framelibrary.SquareFrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:background="@android:color/black"
+    android:layout_height="match_parent">
+    <myapp.framelibrary.view.SquareImageView
+        android:layout_gravity="center"
+        android:id="@+id/siv_camera"
+        android:src="@mipmap/camera"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+
+    <RelativeLayout
+        android:id="@+id/rl_photo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/iv_right"
+            android:layout_alignParentRight="true"
+            android:src="@drawable/select_image_bg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <myapp.framelibrary.view.SquareImageView
+            android:id="@+id/siv_photo"
+            android:layout_centerInParent="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+
+    </RelativeLayout>
+
+</myapp.framelibrary.SquareFrameLayout>
