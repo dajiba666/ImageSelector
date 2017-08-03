@@ -20,12 +20,12 @@ public class DefauleNavigationBar extends AbsNavigationBar<DefauleNavigationBar.
 
     @Override
     public int bindLayoutId() {
-        return R.layout.support_simple_spinner_dropdown_item;
+        return R.layout.navigation_title;
     }
 
     @Override
     public void applyView() {
-        setText(R.id.title,getParams().mTitle);
+        setText(R.id.tv_title,getParams().mTitle);
         setRightText(R.id.tv_right_title,getParams().mRightTitle);
         setOnClickListener(R.id.tv_right_title,getParams().mRightlis);
         setOnClickListener(R.id.iv_lefticon,getParams().mBack);

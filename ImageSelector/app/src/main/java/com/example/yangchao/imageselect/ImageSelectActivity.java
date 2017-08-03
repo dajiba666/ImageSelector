@@ -10,7 +10,6 @@ import android.os.Bundle;
 import android.provider.MediaStore;
 import android.support.v7.widget.GridLayoutManager;
 import android.support.v7.widget.RecyclerView;
-import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
 
@@ -66,27 +65,18 @@ public class ImageSelectActivity extends BaseActivity{
     private TextView mTvPre;
     private ImageSelectAdapter imageSelectAdapter;
     private TextView tvOk;
+    ArrayList<String> strings = new ArrayList<>();
     @Override
     protected void initEvent() {
-        mTvPre.setOnClickListener(new View.OnClickListener() {
-            public void onClick(View v) {
+        mTvPre.setOnClickListener(view -> {
 
-            }
         });
-        imageSelectAdapter.setImageSelectListener(new ImageSelectListener() {
-            public void imageSelect(ArrayList<String> num) {
-                mResultList = num;
-                exchangeViewShow();
-            }
-        });
-        tvOk.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
+
+        tvOk.setOnClickListener(view -> {
                 Intent intent = new Intent();
                 intent.putStringArrayListExtra(EXTRA_RESULT,mResultList);
                 setResult(RESULT_OK);
                 finish();
-            }
         });
     }
 
@@ -100,6 +90,7 @@ public class ImageSelectActivity extends BaseActivity{
         if (mResultList == null){
             mResultList = new ArrayList<>();
         }
+
         initImageList();
 
         exchangeViewShow();
@@ -182,6 +173,10 @@ public class ImageSelectActivity extends BaseActivity{
 
     private void showListData(ArrayList<String> images) {
         imageSelectAdapter = new ImageSelectAdapter(images,this,mResultList,mMaxCount);
+        imageSelectAdapter.setImageSelectListener(num -> {
+                mResultList = num;
+                exchangeViewShow();
+        });
         imgSelect.setLayoutManager(new GridLayoutManager(this,4));
         imgSelect.setAdapter(imageSelectAdapter);
 
@@ -205,6 +200,7 @@ public class ImageSelectActivity extends BaseActivity{
         imgSelect = (RecyclerView) findViewById(R.id.rcv_img_select);
         mTvPre = (TextView) findViewById(R.id.tv_pre);
        mSelectNum = (TextView) findViewById(R.id.tv_num);
+        tvOk = (TextView) findViewById(R.id.tv_ok);
     }
 
     @Override
