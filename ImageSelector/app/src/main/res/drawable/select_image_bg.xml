@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <selector xmlns:android="http://schemas.android.com/apk/res/android">
-    <item android:state_pressed="true"
-        android:drawable="@drawable/select_pre"/> <!-- pressed -->
-    <item android:state_focused="true"
-        android:drawable="@drawable/select" /> <!-- focused -->
-    <item android:drawable="@drawable/select" /> <!-- default -->
+    <item android:state_selected="true"
+        android:drawable="@drawable/right_normal"/> <!-- pressed -->
+    <item android:state_focused="false"
+        android:drawable="@drawable/right" /> <!-- focused -->
+    <item android:drawable="@drawable/right" /> <!-- default -->
 </selector>

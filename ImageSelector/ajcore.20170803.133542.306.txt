@@ -1,0 +1,351 @@
+---- AspectJ Properties ---
+AspectJ Compiler 1.8.9 built on Monday Mar 14, 2016 at 21:18:16 GMT
+---- Dump Properties ---
+Dump file: ajcore.20170803.133542.306.txt
+Dump reason: abort
+Dump on exception: true
+Dump at exit condition: abort
+---- System Properties ---
+java.vendor=JetBrains s.r.o
+sun.java.launcher=SUN_STANDARD
+sun.management.compiler=HotSpot 64-Bit Tiered Compilers
+idea.paths.selector=AndroidStudio2.3
+jnidispatch.path=C:\Users\yang2\.AndroidStudio2.3\system\tmp\jna7900428182592455309.dll
+winp.unpack.dll.to.parent.dir=false
+os.name=Windows 10
+sun.boot.class.path=C:\Program Files\Android\Android Studio\jre\jre\lib\resources.jar;C:\Program Files\Android\Android Studio\jre\jre\lib\rt.jar;C:\Program Files\Android\Android Studio\jre\jre\lib\sunrsasign.jar;C:\Program Files\Android\Android Studio\jre\jre\lib\jsse.jar;C:\Program Files\Android\Android Studio\jre\jre\lib\jce.jar;C:\Program Files\Android\Android Studio\jre\jre\lib\charsets.jar;C:\Program Files\Android\Android Studio\jre\jre\lib\jfr.jar;C:\Program Files\Android\Android Studio\jre\jre\classes
+sun.desktop=windows
+java.vm.specification.vendor=Oracle Corporation
+java.runtime.version=1.8.0_112-release-b06
+jb.vmOptionsFile=C:\Program Files\Android\Android Studio\bin\studio64.exe.vmoptions
+io.netty.serviceThreadPrefix=Netty 
+user.name=yang2
+java.rmi.server.disableHttp=true
+idea.use.default.antialiasing.in.editor=false
+user.language=zh
+sun.boot.library.path=C:\Program Files\Android\Android Studio\jre\jre\bin
+jna.nosys=true
+idea.fatal.error.notification=disabled
+java.version=1.8.0_112-release
+swing.bufferPerWindow=false
+user.timezone=Asia/Shanghai
+java.net.preferIPv4Stack=true
+sun.arch.data.model=64
+java.util.concurrent.ForkJoinPool.common.threadFactory=com.intellij.concurrency.IdeaForkJoinWorkerThreadFactory
+jna.tmpdir=C:\Users\yang2\.AndroidStudio2.3\system\tmp
+java.endorsed.dirs=C:\Program Files\Android\Android Studio\jre\jre\lib\endorsed
+sun.cpu.isalist=amd64
+sun.jnu.encoding=GBK
+file.encoding.pkg=sun.io
+file.separator=\
+java.specification.name=Java Platform API Specification
+java.class.version=52.0
+user.country=CN
+jna.boot.library.path=C:\Users\yang2\.gradle\native\jna\win32-amd64
+java.home=C:\Program Files\Android\Android Studio\jre\jre
+java.util.concurrent.ForkJoinPool.common.parallelism=4
+java.vm.info=mixed mode
+os.version=10.0
+jna.debug_load=true
+path.separator=;
+java.vm.version=25.112-b06
+jna.debug_load.jna=true
+idea.no.launcher=false
+user.variant=
+java.awt.printerjob=sun.awt.windows.WPrinterJob
+sun.io.unicode.encoding=UnicodeLittle
+awt.toolkit=sun.awt.windows.WToolkit
+idea.cycle.buffer.size=1024
+ide.new.welcome.screen.force=true
+io.netty.processId=22779
+log4j.defaultInitOverride=true
+user.script=
+idea.platform.prefix=AndroidStudio
+idea.dynamic.classpath=false
+user.home=C:\Users\yang2
+__idea.mac.env.lock=unlocked
+java.specification.vendor=Oracle Corporation
+library.jansi.path=C:\Users\yang2\.gradle\native\jansi\1.14\windows64
+java.library.path=C:\Program Files\Android\Android Studio\jre\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\TortoiseSVN\bin;D:\Git\bin;C:\Users\yang2\AppData\Local\Microsoft\WindowsApps;;.
+java.vendor.url=https://www.jetbrains.com/
+java.vm.vendor=JetBrains s.r.o
+external.system.remote.process.idle.ttl.ms=-1
+java.runtime.name=OpenJDK Runtime Environment
+sun.java.command=org.gradle.launcher.daemon.bootstrap.GradleDaemon 3.3
+java.class.path=C:\Users\yang2\.gradle\wrapper\dists\gradle-3.3-all\55gk2rcmfc6p2dg9u9ohc3hw9\gradle-3.3\lib\gradle-launcher-3.3.jar
+io.netty.machineId=9e43d860
+java.vm.specification.name=Java Virtual Machine Specification
+idea.xdebug.key=-Xdebug
+idea.popup.weight=heavy
+java.vm.specification.version=1.8
+sun.cpu.endian=little
+sun.os.patch.level=
+java.io.tmpdir=C:\Users\yang2\AppData\Local\Temp\
+java.vendor.url.bug=https://youtrack.jetbrains.com
+java.rmi.server.hostname=localhost
+os.arch=amd64
+java.awt.graphicsenv=sun.awt.Win32GraphicsEnvironment
+idea.max.intellisense.filesize=2500
+java.ext.dirs=C:\Program Files\Android\Android Studio\jre\jre\lib\ext;C:\Windows\Sun\Java\lib\ext
+idea.jre.check=false
+user.dir=D:\StudioProjects\ImageSelect\ImageSelector
+line.separator=
+
+java.vm.name=OpenJDK 64-Bit Server VM
+file.encoding=GBK
+studio.record.file=C:\Users\yang2\.AndroidStudio2.3\system\tmp\AndroidStudio.a03f3f7b-1158-43b9-8815-422298e12e6e
+java.specification.version=1.8
+---- Command Line ---
+-showWeaveInfo
+-1.8
+-inpath
+D:\StudioProjects\ImageSelect\ImageSelector\app\build\retrolambda\debug
+-aspectpath
+C:\Users\yang2\.android\build-cache\87100b2dc384c34fa9fb616ec1007b83aaedd43f\output\jars\classes.jar;C:\Users\yang2\.android\build-cache\68add08e86d76cd240cd09a1c206e1e8e5519f19\output\jars\classes.jar;C:\Users\yang2\.android\build-cache\9c1cc386a67117ef757d1bc4acd66630ee9d42a1\output\jars\classes.jar;C:\Users\yang2\.android\build-cache\eb684abe760365e90e29c4423cd485f8e537be4b\output\jars\classes.jar;C:\Users\yang2\.android\build-cache\7afae41170ef9d88c5cb293f700f6b8e76b85083\output\jars\classes.jar;C:\Users\yang2\.android\build-cache\1be39c1e35bec09f60cc5993cd95a662a4e7d9bd\output\jars\classes.jar;C:\Users\yang2\.android\build-cache\d995414afb1d60be4c0753e65114cf65ed48c6fc\output\jars\classes.jar;C:\Users\yang2\.android\build-cache\b2d5b9e6816d16d9d31051e14fec43d97a93fc1f\output\jars\classes.jar;C:\Users\yang2\.android\build-cache\ba8679945cf367f2fdac638a427cbc9b77e63463\output\jars\classes.jar;C:\Users\yang2\.android\build-cache\7defeff60075c5f1f3d67bc5557f976b9ee1444f\output\jars\classes.jar;C:\Users\yang2\AppData\Local\Android\Sdk\extras\android\m2repository\com\android\support\support-annotations\26.0.0-alpha1\support-annotations-26.0.0-alpha1.jar;C:\Users\yang2\.gradle\caches\modules-2\files-2.1\org.aspectj\aspectjrt\1.8.9\87372d9e2323313bec24b09a325bfea8ae0eb867\aspectjrt-1.8.9.jar;C:\Users\yang2\.gradle\caches\modules-2\files-2.1\com.github.bumptech.glide\glide\3.6.1\86b122e640af09b0723e1fa44083c354ba6d9089\glide-3.6.1.jar;C:\Program Files\Android\Android Studio\jre\jre\lib\rt.jar
+-d
+D:\StudioProjects\ImageSelect\ImageSelector\app\build\retrolambda\debug
+-classpath
+C:\Users\yang2\.android\build-cache\87100b2dc384c34fa9fb616ec1007b83aaedd43f\output\jars\classes.jar;C:\Users\yang2\.android\build-cache\68add08e86d76cd240cd09a1c206e1e8e5519f19\output\jars\classes.jar;C:\Users\yang2\.android\build-cache\9c1cc386a67117ef757d1bc4acd66630ee9d42a1\output\jars\classes.jar;C:\Users\yang2\.android\build-cache\eb684abe760365e90e29c4423cd485f8e537be4b\output\jars\classes.jar;C:\Users\yang2\.android\build-cache\7afae41170ef9d88c5cb293f700f6b8e76b85083\output\jars\classes.jar;C:\Users\yang2\.android\build-cache\1be39c1e35bec09f60cc5993cd95a662a4e7d9bd\output\jars\classes.jar;C:\Users\yang2\.android\build-cache\d995414afb1d60be4c0753e65114cf65ed48c6fc\output\jars\classes.jar;C:\Users\yang2\.android\build-cache\b2d5b9e6816d16d9d31051e14fec43d97a93fc1f\output\jars\classes.jar;C:\Users\yang2\.android\build-cache\ba8679945cf367f2fdac638a427cbc9b77e63463\output\jars\classes.jar;C:\Users\yang2\.android\build-cache\7defeff60075c5f1f3d67bc5557f976b9ee1444f\output\jars\classes.jar;C:\Users\yang2\AppData\Local\Android\Sdk\extras\android\m2repository\com\android\support\support-annotations\26.0.0-alpha1\support-annotations-26.0.0-alpha1.jar;C:\Users\yang2\.gradle\caches\modules-2\files-2.1\org.aspectj\aspectjrt\1.8.9\87372d9e2323313bec24b09a325bfea8ae0eb867\aspectjrt-1.8.9.jar;C:\Users\yang2\.gradle\caches\modules-2\files-2.1\com.github.bumptech.glide\glide\3.6.1\86b122e640af09b0723e1fa44083c354ba6d9089\glide-3.6.1.jar;C:\Program Files\Android\Android Studio\jre\jre\lib\rt.jar
+-bootclasspath
+C:\Users\yang2\AppData\Local\Android\Sdk\platforms\android-26\android.jar
+---- Full Classpath ---
+C:\Users\yang2\AppData\Local\Android\Sdk\platforms\android-26\android.jar(26467929 bytes)
+D:\StudioProjects\ImageSelect\ImageSelector\app\build\retrolambda\debug(2 entries)
+C:\Users\yang2\.android\build-cache\87100b2dc384c34fa9fb616ec1007b83aaedd43f\output\jars\classes.jar(693977 bytes)
+C:\Users\yang2\.android\build-cache\68add08e86d76cd240cd09a1c206e1e8e5519f19\output\jars\classes.jar(11284 bytes)
+C:\Users\yang2\.android\build-cache\9c1cc386a67117ef757d1bc4acd66630ee9d42a1\output\jars\classes.jar(39020 bytes)
+C:\Users\yang2\.android\build-cache\eb684abe760365e90e29c4423cd485f8e537be4b\output\jars\classes.jar(298791 bytes)
+C:\Users\yang2\.android\build-cache\7afae41170ef9d88c5cb293f700f6b8e76b85083\output\jars\classes.jar(589 bytes)
+C:\Users\yang2\.android\build-cache\1be39c1e35bec09f60cc5993cd95a662a4e7d9bd\output\jars\classes.jar(328671 bytes)
+C:\Users\yang2\.android\build-cache\d995414afb1d60be4c0753e65114cf65ed48c6fc\output\jars\classes.jar(165863 bytes)
+C:\Users\yang2\.android\build-cache\b2d5b9e6816d16d9d31051e14fec43d97a93fc1f\output\jars\classes.jar(261617 bytes)
+C:\Users\yang2\.android\build-cache\ba8679945cf367f2fdac638a427cbc9b77e63463\output\jars\classes.jar(102172 bytes)
+C:\Users\yang2\.android\build-cache\7defeff60075c5f1f3d67bc5557f976b9ee1444f\output\jars\classes.jar(671425 bytes)
+C:\Users\yang2\AppData\Local\Android\Sdk\extras\android\m2repository\com\android\support\support-annotations\26.0.0-alpha1\support-annotations-26.0.0-alpha1.jar(23806 bytes)
+C:\Users\yang2\.gradle\caches\modules-2\files-2.1\org.aspectj\aspectjrt\1.8.9\87372d9e2323313bec24b09a325bfea8ae0eb867\aspectjrt-1.8.9.jar(117528 bytes)
+C:\Users\yang2\.gradle\caches\modules-2\files-2.1\com.github.bumptech.glide\glide\3.6.1\86b122e640af09b0723e1fa44083c354ba6d9089\glide-3.6.1.jar(475237 bytes)
+C:\Program Files\Android\Android Studio\jre\jre\lib\rt.jar(62517044 bytes)
+C:\Program Files\Android\Android Studio\jre\jre\lib\ext\access-bridge-64.jar(188024 bytes)
+C:\Program Files\Android\Android Studio\jre\jre\lib\ext\cldrdata.jar(3860502 bytes)
+C:\Program Files\Android\Android Studio\jre\jre\lib\ext\dnsns.jar(8286 bytes)
+C:\Program Files\Android\Android Studio\jre\jre\lib\ext\jaccess.jar(44516 bytes)
+C:\Program Files\Android\Android Studio\jre\jre\lib\ext\localedata.jar(1178872 bytes)
+C:\Program Files\Android\Android Studio\jre\jre\lib\ext\nashorn.jar(2032048 bytes)
+C:\Program Files\Android\Android Studio\jre\jre\lib\ext\sunec.jar(35899 bytes)
+C:\Program Files\Android\Android Studio\jre\jre\lib\ext\sunjce_provider.jar(260958 bytes)
+C:\Program Files\Android\Android Studio\jre\jre\lib\ext\sunmscapi.jar(28528 bytes)
+C:\Program Files\Android\Android Studio\jre\jre\lib\ext\sunpkcs11.jar(238940 bytes)
+C:\Program Files\Android\Android Studio\jre\jre\lib\ext\zipfs.jar(68932 bytes)
+C:\Users\yang2\.android\build-cache\87100b2dc384c34fa9fb616ec1007b83aaedd43f\output\jars\classes.jar(693977 bytes)
+C:\Users\yang2\.android\build-cache\68add08e86d76cd240cd09a1c206e1e8e5519f19\output\jars\classes.jar(11284 bytes)
+C:\Users\yang2\.android\build-cache\9c1cc386a67117ef757d1bc4acd66630ee9d42a1\output\jars\classes.jar(39020 bytes)
+C:\Users\yang2\.android\build-cache\eb684abe760365e90e29c4423cd485f8e537be4b\output\jars\classes.jar(298791 bytes)
+C:\Users\yang2\.android\build-cache\7afae41170ef9d88c5cb293f700f6b8e76b85083\output\jars\classes.jar(589 bytes)
+C:\Users\yang2\.android\build-cache\1be39c1e35bec09f60cc5993cd95a662a4e7d9bd\output\jars\classes.jar(328671 bytes)
+C:\Users\yang2\.android\build-cache\d995414afb1d60be4c0753e65114cf65ed48c6fc\output\jars\classes.jar(165863 bytes)
+C:\Users\yang2\.android\build-cache\b2d5b9e6816d16d9d31051e14fec43d97a93fc1f\output\jars\classes.jar(261617 bytes)
+C:\Users\yang2\.android\build-cache\ba8679945cf367f2fdac638a427cbc9b77e63463\output\jars\classes.jar(102172 bytes)
+C:\Users\yang2\.android\build-cache\7defeff60075c5f1f3d67bc5557f976b9ee1444f\output\jars\classes.jar(671425 bytes)
+C:\Users\yang2\AppData\Local\Android\Sdk\extras\android\m2repository\com\android\support\support-annotations\26.0.0-alpha1\support-annotations-26.0.0-alpha1.jar(23806 bytes)
+C:\Users\yang2\.gradle\caches\modules-2\files-2.1\org.aspectj\aspectjrt\1.8.9\87372d9e2323313bec24b09a325bfea8ae0eb867\aspectjrt-1.8.9.jar(117528 bytes)
+C:\Users\yang2\.gradle\caches\modules-2\files-2.1\com.github.bumptech.glide\glide\3.6.1\86b122e640af09b0723e1fa44083c354ba6d9089\glide-3.6.1.jar(475237 bytes)
+C:\Program Files\Android\Android Studio\jre\jre\lib\rt.jar(62517044 bytes)
+---- Compiler Messages ---
+info Pipelining compilation
+info weaver operating in reweavable mode.  Need to verify any required types exist.
+abort trouble in: 
+com.example.yangchao.imageselect.aop.PermissionAspect -- (IllegalStateException) there is no classname for invokedynamic
+there is no classname for invokedynamic
+java.lang.IllegalStateException: there is no classname for invokedynamic
+	at org.aspectj.apache.bcel.generic.InvokeDynamic.getClassName(InvokeDynamic.java:126)
+	at org.aspectj.weaver.bcel.BcelAccessForInlineMunger.openAroundAdvice(BcelAccessForInlineMunger.java:141)
+	at org.aspectj.weaver.bcel.BcelAccessForInlineMunger.munge(BcelAccessForInlineMunger.java:80)
+	at org.aspectj.weaver.bcel.BcelClassWeaver.weave(BcelClassWeaver.java:440)
+	at org.aspectj.weaver.bcel.BcelClassWeaver.weave(BcelClassWeaver.java:100)
+	at org.aspectj.weaver.bcel.BcelWeaver.weave(BcelWeaver.java:1697)
+	at org.aspectj.weaver.bcel.BcelWeaver.weaveWithoutDump(BcelWeaver.java:1641)
+	at org.aspectj.weaver.bcel.BcelWeaver.weaveAndNotify(BcelWeaver.java:1406)
+	at org.aspectj.weaver.bcel.BcelWeaver.weave(BcelWeaver.java:1159)
+	at org.aspectj.ajdt.internal.compiler.AjPipeliningCompilerAdapter.weaveQueuedEntries(AjPipeliningCompilerAdapter.java:514)
+	at org.aspectj.ajdt.internal.compiler.AjPipeliningCompilerAdapter.afterCompiling(AjPipeliningCompilerAdapter.java:375)
+	at org.aspectj.ajdt.internal.compiler.CompilerAdapter.ajc$afterReturning$org_aspectj_ajdt_internal_compiler_CompilerAdapter$2$f9cc9ca0(CompilerAdapter.aj:78)
+	at org.aspectj.org.eclipse.jdt.internal.compiler.Compiler.compile(Compiler.java:471)
+	at org.aspectj.ajdt.internal.core.builder.AjBuildManager.performCompilation(AjBuildManager.java:1036)
+	at org.aspectj.ajdt.internal.core.builder.AjBuildManager.performBuild(AjBuildManager.java:272)
+	at org.aspectj.ajdt.internal.core.builder.AjBuildManager.batchBuild(AjBuildManager.java:185)
+	at org.aspectj.ajdt.ajc.AjdtCommand.doCommand(AjdtCommand.java:112)
+	at org.aspectj.ajdt.ajc.AjdtCommand.runCommand(AjdtCommand.java:60)
+	at org.aspectj.tools.ajc.Main.run(Main.java:371)
+	at org.aspectj.tools.ajc.Main$run.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:133)
+	at build_cg78dtpkoc2kpykuir949qxne$_run_closure3$_closure9.doCall(D:\StudioProjects\ImageSelect\ImageSelector\app\build.gradle:57)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:93)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:325)
+	at org.codehaus.groovy.runtime.metaclass.ClosureMetaClass.invokeMethod(ClosureMetaClass.java:294)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1024)
+	at groovy.lang.Closure.call(Closure.java:414)
+	at groovy.lang.Closure.call(Closure.java:430)
+	at org.gradle.api.internal.AbstractTask$ClosureTaskAction.execute(AbstractTask.java:596)
+	at org.gradle.api.internal.AbstractTask$ClosureTaskAction.execute(AbstractTask.java:577)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeAction(ExecuteActionsTaskExecuter.java:95)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeActions(ExecuteActionsTaskExecuter.java:76)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.execute(ExecuteActionsTaskExecuter.java:55)
+	at org.gradle.api.internal.tasks.execution.SkipUpToDateTaskExecuter.execute(SkipUpToDateTaskExecuter.java:62)
+	at org.gradle.api.internal.tasks.execution.ValidatingTaskExecuter.execute(ValidatingTaskExecuter.java:58)
+	at org.gradle.api.internal.tasks.execution.SkipEmptySourceFilesTaskExecuter.execute(SkipEmptySourceFilesTaskExecuter.java:88)
+	at org.gradle.api.internal.tasks.execution.ResolveTaskArtifactStateTaskExecuter.execute(ResolveTaskArtifactStateTaskExecuter.java:46)
+	at org.gradle.api.internal.tasks.execution.SkipTaskWithNoActionsExecuter.execute(SkipTaskWithNoActionsExecuter.java:51)
+	at org.gradle.api.internal.tasks.execution.SkipOnlyIfTaskExecuter.execute(SkipOnlyIfTaskExecuter.java:54)
+	at org.gradle.api.internal.tasks.execution.ExecuteAtMostOnceTaskExecuter.execute(ExecuteAtMostOnceTaskExecuter.java:43)
+	at org.gradle.api.internal.tasks.execution.CatchExceptionTaskExecuter.execute(CatchExceptionTaskExecuter.java:34)
+	at org.gradle.execution.taskgraph.DefaultTaskGraphExecuter$EventFiringTaskWorker$1.execute(DefaultTaskGraphExecuter.java:236)
+	at org.gradle.execution.taskgraph.DefaultTaskGraphExecuter$EventFiringTaskWorker$1.execute(DefaultTaskGraphExecuter.java:228)
+	at org.gradle.internal.Transformers$4.transform(Transformers.java:169)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:106)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:61)
+	at org.gradle.execution.taskgraph.DefaultTaskGraphExecuter$EventFiringTaskWorker.execute(DefaultTaskGraphExecuter.java:228)
+	at org.gradle.execution.taskgraph.DefaultTaskGraphExecuter$EventFiringTaskWorker.execute(DefaultTaskGraphExecuter.java:215)
+	at org.gradle.execution.taskgraph.AbstractTaskPlanExecutor$TaskExecutorWorker.processTask(AbstractTaskPlanExecutor.java:77)
+	at org.gradle.execution.taskgraph.AbstractTaskPlanExecutor$TaskExecutorWorker.run(AbstractTaskPlanExecutor.java:58)
+	at org.gradle.execution.taskgraph.DefaultTaskPlanExecutor.process(DefaultTaskPlanExecutor.java:32)
+	at org.gradle.execution.taskgraph.DefaultTaskGraphExecuter.execute(DefaultTaskGraphExecuter.java:113)
+	at org.gradle.execution.SelectedTaskExecutionAction.execute(SelectedTaskExecutionAction.java:37)
+	at org.gradle.execution.DefaultBuildExecuter.execute(DefaultBuildExecuter.java:37)
+	at org.gradle.execution.DefaultBuildExecuter.access$000(DefaultBuildExecuter.java:23)
+	at org.gradle.execution.DefaultBuildExecuter$1.proceed(DefaultBuildExecuter.java:43)
+	at org.gradle.execution.DryRunBuildExecutionAction.execute(DryRunBuildExecutionAction.java:32)
+	at org.gradle.execution.DefaultBuildExecuter.execute(DefaultBuildExecuter.java:37)
+	at org.gradle.execution.DefaultBuildExecuter.execute(DefaultBuildExecuter.java:30)
+	at org.gradle.initialization.DefaultGradleLauncher$3.execute(DefaultGradleLauncher.java:196)
+	at org.gradle.initialization.DefaultGradleLauncher$3.execute(DefaultGradleLauncher.java:193)
+	at org.gradle.internal.Transformers$4.transform(Transformers.java:169)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:106)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:56)
+	at org.gradle.initialization.DefaultGradleLauncher.doBuildStages(DefaultGradleLauncher.java:193)
+	at org.gradle.initialization.DefaultGradleLauncher.doBuild(DefaultGradleLauncher.java:119)
+	at org.gradle.initialization.DefaultGradleLauncher.run(DefaultGradleLauncher.java:102)
+	at org.gradle.launcher.exec.GradleBuildController.run(GradleBuildController.java:71)
+	at org.gradle.tooling.internal.provider.runner.BuildModelActionRunner.run(BuildModelActionRunner.java:50)
+	at org.gradle.launcher.exec.ChainingBuildActionRunner.run(ChainingBuildActionRunner.java:35)
+	at org.gradle.tooling.internal.provider.runner.RunAsBuildOperationBuildActionRunner$1.execute(RunAsBuildOperationBuildActionRunner.java:43)
+	at org.gradle.tooling.internal.provider.runner.RunAsBuildOperationBuildActionRunner$1.execute(RunAsBuildOperationBuildActionRunner.java:40)
+	at org.gradle.internal.Transformers$4.transform(Transformers.java:169)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:106)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:56)
+	at org.gradle.tooling.internal.provider.runner.RunAsBuildOperationBuildActionRunner.run(RunAsBuildOperationBuildActionRunner.java:40)
+	at org.gradle.tooling.internal.provider.runner.SubscribableBuildActionRunner.run(SubscribableBuildActionRunner.java:75)
+	at org.gradle.launcher.exec.ChainingBuildActionRunner.run(ChainingBuildActionRunner.java:35)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter.execute(InProcessBuildActionExecuter.java:41)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter.execute(InProcessBuildActionExecuter.java:26)
+	at org.gradle.tooling.internal.provider.ContinuousBuildActionExecuter.execute(ContinuousBuildActionExecuter.java:75)
+	at org.gradle.tooling.internal.provider.ContinuousBuildActionExecuter.execute(ContinuousBuildActionExecuter.java:49)
+	at org.gradle.tooling.internal.provider.ServicesSetupBuildActionExecuter.execute(ServicesSetupBuildActionExecuter.java:44)
+	at org.gradle.tooling.internal.provider.ServicesSetupBuildActionExecuter.execute(ServicesSetupBuildActionExecuter.java:29)
+	at org.gradle.launcher.daemon.server.exec.ExecuteBuild.doBuild(ExecuteBuild.java:67)
+	at org.gradle.launcher.daemon.server.exec.BuildCommandOnly.execute(BuildCommandOnly.java:36)
+	at org.gradle.launcher.daemon.server.api.DaemonCommandExecution.proceed(DaemonCommandExecution.java:120)
+	at org.gradle.launcher.daemon.server.exec.WatchForDisconnection.execute(WatchForDisconnection.java:47)
+	at org.gradle.launcher.daemon.server.api.DaemonCommandExecution.proceed(DaemonCommandExecution.java:120)
+	at org.gradle.launcher.daemon.server.exec.ResetDeprecationLogger.execute(ResetDeprecationLogger.java:26)
+	at org.gradle.launcher.daemon.server.api.DaemonCommandExecution.proceed(DaemonCommandExecution.java:120)
+	at org.gradle.launcher.daemon.server.exec.RequestStopIfSingleUsedDaemon.execute(RequestStopIfSingleUsedDaemon.java:34)
+	at org.gradle.launcher.daemon.server.api.DaemonCommandExecution.proceed(DaemonCommandExecution.java:120)
+	at org.gradle.launcher.daemon.server.exec.ForwardClientInput$2.call(ForwardClientInput.java:74)
+	at org.gradle.launcher.daemon.server.exec.ForwardClientInput$2.call(ForwardClientInput.java:72)
+	at org.gradle.util.Swapper.swap(Swapper.java:38)
+	at org.gradle.launcher.daemon.server.exec.ForwardClientInput.execute(ForwardClientInput.java:72)
+	at org.gradle.launcher.daemon.server.api.DaemonCommandExecution.proceed(DaemonCommandExecution.java:120)
+	at org.gradle.launcher.daemon.server.exec.LogAndCheckHealth.execute(LogAndCheckHealth.java:55)
+	at org.gradle.launcher.daemon.server.api.DaemonCommandExecution.proceed(DaemonCommandExecution.java:120)
+	at org.gradle.launcher.daemon.server.exec.LogToClient.doBuild(LogToClient.java:60)
+	at org.gradle.launcher.daemon.server.exec.BuildCommandOnly.execute(BuildCommandOnly.java:36)
+	at org.gradle.launcher.daemon.server.api.DaemonCommandExecution.proceed(DaemonCommandExecution.java:120)
+	at org.gradle.launcher.daemon.server.exec.EstablishBuildEnvironment.doBuild(EstablishBuildEnvironment.java:72)
+	at org.gradle.launcher.daemon.server.exec.BuildCommandOnly.execute(BuildCommandOnly.java:36)
+	at org.gradle.launcher.daemon.server.api.DaemonCommandExecution.proceed(DaemonCommandExecution.java:120)
+	at org.gradle.launcher.daemon.server.exec.StartBuildOrRespondWithBusy$1.run(StartBuildOrRespondWithBusy.java:50)
+	at org.gradle.launcher.daemon.server.DaemonStateCoordinator$1.run(DaemonStateCoordinator.java:297)
+	at org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:54)
+	at org.gradle.internal.concurrent.StoppableExecutorImpl$1.run(StoppableExecutorImpl.java:40)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+info woven aspect com.example.yangchao.imageselect.aop.PermissionAspect (from D:\StudioProjects\ImageSelect\ImageSelector\app\build\retrolambda\debug\com\example\yangchao\imageselect\aop\PermissionAspect.class)
+info woven class android.support.v7.appcompat.R$color (from D:\StudioProjects\ImageSelect\ImageSelector\app\build\retrolambda\debug\android\support\v7\appcompat\R$color.class)
+info woven class com.example.yangchao.imageselect.R$mipmap (from D:\StudioProjects\ImageSelect\ImageSelector\app\build\retrolambda\debug\com\example\yangchao\imageselect\R$mipmap.class)
+info woven class com.example.yangchao.imageselect.navigationbar.INavigationBar (from D:\StudioProjects\ImageSelect\ImageSelector\app\build\retrolambda\debug\com\example\yangchao\imageselect\navigationbar\INavigationBar.class)
+info woven class android.support.v7.appcompat.R$string (from D:\StudioProjects\ImageSelect\ImageSelector\app\build\retrolambda\debug\android\support\v7\appcompat\R$string.class)
+info woven class com.example.yangchao.imageselect.R$dimen (from D:\StudioProjects\ImageSelect\ImageSelector\app\build\retrolambda\debug\com\example\yangchao\imageselect\R$dimen.class)
+info woven class android.support.graphics.drawable.R (from D:\StudioProjects\ImageSelect\ImageSelector\app\build\retrolambda\debug\android\support\graphics\drawable\R.class)
+info woven class com.example.yangchao.imageselect.R$id (from D:\StudioProjects\ImageSelect\ImageSelector\app\build\retrolambda\debug\com\example\yangchao\imageselect\R$id.class)
+info woven class com.example.yangchao.imageselect.ImageSelectActivity (from D:\StudioProjects\ImageSelect\ImageSelector\app\build\retrolambda\debug\com\example\yangchao\imageselect\ImageSelectActivity.class)
+info woven class com.example.yangchao.imageselect.ImageSelectAdapter$ViewHolder (from D:\StudioProjects\ImageSelect\ImageSelector\app\build\retrolambda\debug\com\example\yangchao\imageselect\ImageSelectAdapter$ViewHolder.class)
+info woven class com.example.yangchao.imageselect.BuildConfig (from D:\StudioProjects\ImageSelect\ImageSelector\app\build\retrolambda\debug\com\example\yangchao\imageselect\BuildConfig.class)
+info woven class android.support.v7.appcompat.R$drawable (from D:\StudioProjects\ImageSelect\ImageSelector\app\build\retrolambda\debug\android\support\v7\appcompat\R$drawable.class)
+info woven class android.support.v7.appcompat.R$style (from D:\StudioProjects\ImageSelect\ImageSelector\app\build\retrolambda\debug\android\support\v7\appcompat\R$style.class)
+info woven class android.support.v7.appcompat.R$bool (from D:\StudioProjects\ImageSelect\ImageSelector\app\build\retrolambda\debug\android\support\v7\appcompat\R$bool.class)
+info woven class com.example.yangchao.imageselect.App$1 (from D:\StudioProjects\ImageSelect\ImageSelector\app\build\retrolambda\debug\com\example\yangchao\imageselect\App$1.class)
+info woven class com.example.yangchao.imageselect.aop.PermissionUtil$OnPermissionListener (from D:\StudioProjects\ImageSelect\ImageSelector\app\build\retrolambda\debug\com\example\yangchao\imageselect\aop\PermissionUtil$OnPermissionListener.class)
+info woven class com.example.yangchao.imageselect.ImageSelectAdapter (from D:\StudioProjects\ImageSelect\ImageSelector\app\build\retrolambda\debug\com\example\yangchao\imageselect\ImageSelectAdapter.class)
+info woven class android.support.fragment.R (from D:\StudioProjects\ImageSelect\ImageSelector\app\build\retrolambda\debug\android\support\fragment\R.class)
+info woven class com.example.yangchao.imageselect.App (from D:\StudioProjects\ImageSelect\ImageSelector\app\build\retrolambda\debug\com\example\yangchao\imageselect\App.class)
+info woven class com.example.yangchao.imageselect.R$anim (from D:\StudioProjects\ImageSelect\ImageSelector\app\build\retrolambda\debug\com\example\yangchao\imageselect\R$anim.class)
+info woven class android.support.coreutils.R (from D:\StudioProjects\ImageSelect\ImageSelector\app\build\retrolambda\debug\android\support\coreutils\R.class)
+info woven class android.support.v7.appcompat.R$id (from D:\StudioProjects\ImageSelect\ImageSelector\app\build\retrolambda\debug\android\support\v7\appcompat\R$id.class)
+info woven class com.example.yangchao.imageselect.aop.PermissionUtil$1 (from D:\StudioProjects\ImageSelect\ImageSelector\app\build\retrolambda\debug\com\example\yangchao\imageselect\aop\PermissionUtil$1.class)
+info woven class com.example.yangchao.imageselect.view.DefauleNavigationBar$Builder (from D:\StudioProjects\ImageSelect\ImageSelector\app\build\retrolambda\debug\com\example\yangchao\imageselect\view\DefauleNavigationBar$Builder.class)
+info woven class android.support.v7.recyclerview.R$styleable (from D:\StudioProjects\ImageSelect\ImageSelector\app\build\retrolambda\debug\android\support\v7\recyclerview\R$styleable.class)
+info woven class com.example.yangchao.imageselect.ImageSelectActivity$1 (from D:\StudioProjects\ImageSelect\ImageSelector\app\build\retrolambda\debug\com\example\yangchao\imageselect\ImageSelectActivity$1.class)
+info woven class com.example.yangchao.imageselect.ImageSelectAdapter$1 (from D:\StudioProjects\ImageSelect\ImageSelector\app\build\retrolambda\debug\com\example\yangchao\imageselect\ImageSelectAdapter$1.class)
+info woven class com.example.yangchao.imageselect.aop.PermissionAspect$1 (from D:\StudioProjects\ImageSelect\ImageSelector\app\build\retrolambda\debug\com\example\yangchao\imageselect\aop\PermissionAspect$1.class)
+info woven class com.example.yangchao.imageselect.navigationbar.AbsNavigationBar$Builder$AbsNavigationParams (from D:\StudioProjects\ImageSelect\ImageSelector\app\build\retrolambda\debug\com\example\yangchao\imageselect\navigationbar\AbsNavigationBar$Builder$AbsNavigationParams.class)
+info woven class android.support.v7.recyclerview.R$attr (from D:\StudioProjects\ImageSelect\ImageSelector\app\build\retrolambda\debug\android\support\v7\recyclerview\R$attr.class)
+info woven class com.example.yangchao.imageselect.R$style (from D:\StudioProjects\ImageSelect\ImageSelector\app\build\retrolambda\debug\com\example\yangchao\imageselect\R$style.class)
+info woven class com.example.yangchao.imageselect.R$string (from D:\StudioProjects\ImageSelect\ImageSelector\app\build\retrolambda\debug\com\example\yangchao\imageselect\R$string.class)
+info woven class com.example.yangchao.imageselect.R$layout (from D:\StudioProjects\ImageSelect\ImageSelector\app\build\retrolambda\debug\com\example\yangchao\imageselect\R$layout.class)
+info woven class com.example.yangchao.imageselect.ImageEntity (from D:\StudioProjects\ImageSelect\ImageSelector\app\build\retrolambda\debug\com\example\yangchao\imageselect\ImageEntity.class)
+info woven class com.example.yangchao.imageselect.R$drawable (from D:\StudioProjects\ImageSelect\ImageSelector\app\build\retrolambda\debug\com\example\yangchao\imageselect\R$drawable.class)
+info woven class com.example.yangchao.imageselect.R$styleable (from D:\StudioProjects\ImageSelect\ImageSelector\app\build\retrolambda\debug\com\example\yangchao\imageselect\R$styleable.class)
+info woven class com.example.yangchao.imageselect.view.SquareFrameLayout (from D:\StudioProjects\ImageSelect\ImageSelector\app\build\retrolambda\debug\com\example\yangchao\imageselect\view\SquareFrameLayout.class)
+info woven class com.example.yangchao.imageselect.R$attr (from D:\StudioProjects\ImageSelect\ImageSelector\app\build\retrolambda\debug\com\example\yangchao\imageselect\R$attr.class)
+info woven class android.support.graphics.drawable.animated.R (from D:\StudioProjects\ImageSelect\ImageSelector\app\build\retrolambda\debug\android\support\graphics\drawable\animated\R.class)
+info woven class com.example.yangchao.imageselect.R$bool (from D:\StudioProjects\ImageSelect\ImageSelector\app\build\retrolambda\debug\com\example\yangchao\imageselect\R$bool.class)
+info woven class com.example.yangchao.imageselect.App$SwitchBackgroundCallbacks (from D:\StudioProjects\ImageSelect\ImageSelector\app\build\retrolambda\debug\com\example\yangchao\imageselect\App$SwitchBackgroundCallbacks.class)
+info woven class android.support.v7.recyclerview.R (from D:\StudioProjects\ImageSelect\ImageSelector\app\build\retrolambda\debug\android\support\v7\recyclerview\R.class)
+info woven class com.example.yangchao.imageselect.view.DefauleNavigationBar$Builder$DefauleNavigationParams (from D:\StudioProjects\ImageSelect\ImageSelector\app\build\retrolambda\debug\com\example\yangchao\imageselect\view\DefauleNavigationBar$Builder$DefauleNavigationParams.class)
+info woven class android.support.v7.appcompat.R$dimen (from D:\StudioProjects\ImageSelect\ImageSelector\app\build\retrolambda\debug\android\support\v7\appcompat\R$dimen.class)
+info woven class com.example.yangchao.imageselect.view.DefauleNavigationBar$Builder$DefauleNavigationParams$1 (from D:\StudioProjects\ImageSelect\ImageSelector\app\build\retrolambda\debug\com\example\yangchao\imageselect\view\DefauleNavigationBar$Builder$DefauleNavigationParams$1.class)
+info woven class android.support.compat.R (from D:\StudioProjects\ImageSelect\ImageSelector\app\build\retrolambda\debug\android\support\compat\R.class)
+info woven class android.support.coreui.R (from D:\StudioProjects\ImageSelect\ImageSelector\app\build\retrolambda\debug\android\support\coreui\R.class)
+info woven class android.support.v7.appcompat.R$integer (from D:\StudioProjects\ImageSelect\ImageSelector\app\build\retrolambda\debug\android\support\v7\appcompat\R$integer.class)
+info woven class com.example.yangchao.imageselect.aop.Permission (from D:\StudioProjects\ImageSelect\ImageSelector\app\build\retrolambda\debug\com\example\yangchao\imageselect\aop\Permission.class)
+info woven class android.support.v7.appcompat.R (from D:\StudioProjects\ImageSelect\ImageSelector\app\build\retrolambda\debug\android\support\v7\appcompat\R.class)
+info woven class android.support.v7.recyclerview.R$id (from D:\StudioProjects\ImageSelect\ImageSelector\app\build\retrolambda\debug\android\support\v7\recyclerview\R$id.class)
+info woven class com.example.yangchao.imageselect.ImageSelectListener (from D:\StudioProjects\ImageSelect\ImageSelector\app\build\retrolambda\debug\com\example\yangchao\imageselect\ImageSelectListener.class)
+info woven class android.support.v7.appcompat.R$styleable (from D:\StudioProjects\ImageSelect\ImageSelector\app\build\retrolambda\debug\android\support\v7\appcompat\R$styleable.class)
+info woven class com.example.yangchao.imageselect.BaseActivity (from D:\StudioProjects\ImageSelect\ImageSelector\app\build\retrolambda\debug\com\example\yangchao\imageselect\BaseActivity.class)
+info woven class android.support.v7.appcompat.R$anim (from D:\StudioProjects\ImageSelect\ImageSelector\app\build\retrolambda\debug\android\support\v7\appcompat\R$anim.class)
+info woven class android.support.v7.appcompat.R$layout (from D:\StudioProjects\ImageSelect\ImageSelector\app\build\retrolambda\debug\android\support\v7\appcompat\R$layout.class)
+info woven class com.example.yangchao.imageselect.aop.PermissionUtil (from D:\StudioProjects\ImageSelect\ImageSelector\app\build\retrolambda\debug\com\example\yangchao\imageselect\aop\PermissionUtil.class)
+info woven class android.support.v7.recyclerview.R$dimen (from D:\StudioProjects\ImageSelect\ImageSelector\app\build\retrolambda\debug\android\support\v7\recyclerview\R$dimen.class)
+info woven class com.example.yangchao.imageselect.R (from D:\StudioProjects\ImageSelect\ImageSelector\app\build\retrolambda\debug\com\example\yangchao\imageselect\R.class)
+info woven class com.example.yangchao.imageselect.R$color (from D:\StudioProjects\ImageSelect\ImageSelector\app\build\retrolambda\debug\com\example\yangchao\imageselect\R$color.class)
+info woven class com.example.yangchao.imageselect.navigationbar.AbsNavigationBar (from D:\StudioProjects\ImageSelect\ImageSelector\app\build\retrolambda\debug\com\example\yangchao\imageselect\navigationbar\AbsNavigationBar.class)
+info woven class android.support.v7.appcompat.R$attr (from D:\StudioProjects\ImageSelect\ImageSelector\app\build\retrolambda\debug\android\support\v7\appcompat\R$attr.class)
+info woven class com.example.yangchao.imageselect.R$integer (from D:\StudioProjects\ImageSelect\ImageSelector\app\build\retrolambda\debug\com\example\yangchao\imageselect\R$integer.class)
+info woven class com.example.yangchao.imageselect.MainActivity$AjcClosure1 (from D:\StudioProjects\ImageSelect\ImageSelector\app\build\retrolambda\debug\com\example\yangchao\imageselect\MainActivity$AjcClosure1.class)
+info woven class android.support.mediacompat.R (from D:\StudioProjects\ImageSelect\ImageSelector\app\build\retrolambda\debug\android\support\mediacompat\R.class)
+weaveinfo Join point 'method-execution(void com.example.yangchao.imageselect.MainActivity.onClick())' in Type 'com.example.yangchao.imageselect.MainActivity' (MainActivity.java:23) advised by around advice from 'com.example.yangchao.imageselect.aop.PermissionAspect' (PermissionAspect.class(from PermissionAspect.java))
+info woven class com.example.yangchao.imageselect.MainActivity (from D:\StudioProjects\ImageSelect\ImageSelector\app\build\retrolambda\debug\com\example\yangchao\imageselect\MainActivity.class)
+info woven class com.example.yangchao.imageselect.MainActivity$AjcClosure1 (from D:\StudioProjects\ImageSelect\ImageSelector\app\build\retrolambda\debug\com\example\yangchao\imageselect\MainActivity.class)
+info woven class com.example.yangchao.imageselect.view.DefauleNavigationBar (from D:\StudioProjects\ImageSelect\ImageSelector\app\build\retrolambda\debug\com\example\yangchao\imageselect\view\DefauleNavigationBar.class)
+info woven class android.support.v4.R (from D:\StudioProjects\ImageSelect\ImageSelector\app\build\retrolambda\debug\android\support\v4\R.class)
+info woven class com.example.yangchao.imageselect.navigationbar.AbsNavigationBar$Builder (from D:\StudioProjects\ImageSelect\ImageSelector\app\build\retrolambda\debug\com\example\yangchao\imageselect\navigationbar\AbsNavigationBar$Builder.class)
+info woven class com.example.yangchao.imageselect.view.SquareImageView (from D:\StudioProjects\ImageSelect\ImageSelector\app\build\retrolambda\debug\com\example\yangchao\imageselect\view\SquareImageView.class)
