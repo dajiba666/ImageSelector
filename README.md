@@ -20,7 +20,7 @@
                 mResults = data.getStringArrayListExtra(SelectorSettings.SELECTOR_RESULTS);
                 assert mResults != null;
 
-                // show results in textview
+              
                 StringBuilder sb = new StringBuilder();
                 for(String result : mResults) {
                     sb.append(result).append("\n");
