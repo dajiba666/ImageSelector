@@ -8,10 +8,12 @@ import android.content.Intent;
 import android.content.pm.PackageManager;
 import android.database.Cursor;
 import android.net.Uri;
+import android.os.Build;
 import android.os.Bundle;
 import android.provider.MediaStore;
 import android.support.v4.app.ActivityCompat;
 import android.support.v4.content.ContextCompat;
+import android.support.v4.content.FileProvider;
 import android.support.v7.app.ActionBar;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.GridLayoutManager;
@@ -76,6 +78,8 @@ public class ImagesSelectorActivity extends AppCompatActivity
     private File mTempImageFile;
     private static final int CAMERA_REQUEST_CODE = 694;
     private ImageRecyclerViewAdapter imageRecyclerViewAdapter;
+
+    private Uri imageUri;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -342,6 +346,13 @@ public class ImagesSelectorActivity extends AppCompatActivity
             } catch (IOException e) {
                 Log.e(TAG, "launchCamera: ", e);
             }
+            if(Build.VERSION.SDK_INT >= Build.VERSION_CODES.N){
+                imageUri = FileProvider.getUriForFile(this,"com.example.image_selectro_lib.fileprovider",mTempImageFile);
+                cameraIntent.addFlags(Intent.FLAG_GRANT_READ_URI_PERMISSION);
+                cameraIntent.putExtra(MediaStore.EXTRA_OUTPUT, imageUri);
+                startActivityForResult(cameraIntent, CAMERA_REQUEST_CODE);
+                return;
+            }
             if (mTempImageFile != null && mTempImageFile.exists()) {
                 cameraIntent.putExtra(MediaStore.EXTRA_OUTPUT, Uri.fromFile(mTempImageFile));
                 startActivityForResult(cameraIntent, CAMERA_REQUEST_CODE);
@@ -351,7 +362,6 @@ public class ImagesSelectorActivity extends AppCompatActivity
         } else {
             Toast.makeText(this, R.string.msg_no_camera, Toast.LENGTH_SHORT).show();
         }
-
     }
 
     @Override
@@ -359,9 +369,15 @@ public class ImagesSelectorActivity extends AppCompatActivity
         super.onActivityResult(requestCode, resultCode, data);
         if (requestCode == CAMERA_REQUEST_CODE) {
             if (resultCode == Activity.RESULT_OK) {
-                if (mTempImageFile != null) {
+
+                if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.N){
                     sendBroadcast(new Intent(Intent.ACTION_MEDIA_SCANNER_SCAN_FILE, Uri.fromFile(mTempImageFile)));
                     imageRecyclerViewAdapter.addData(new ImageItem(mTempImageFile.getName(),mTempImageFile.getAbsolutePath(),System.currentTimeMillis()));
+                }else {
+                    if (mTempImageFile != null) {
+                        sendBroadcast(new Intent(Intent.ACTION_MEDIA_SCANNER_SCAN_FILE, Uri.fromFile(mTempImageFile)));
+                        imageRecyclerViewAdapter.addData(new ImageItem(mTempImageFile.getName(),mTempImageFile.getAbsolutePath(),System.currentTimeMillis()));
+                    }
                 }
             } else {
                 while (mTempImageFile != null && mTempImageFile.exists()) {
